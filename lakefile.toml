@@ -1,0 +1,10 @@
+name = "AXI"
+version = "0.1.0"
+defaultTargets = ["AXI", "axi"]
+
+[[lean_lib]]
+name = "AXI"
+
+[[lean_exe]]
+name = "axi"
+root = "Main"
